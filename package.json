@@ -1,0 +1,30 @@
+{
+  "name": "semantic-release-monorepo-example",
+  "version": "1.0.0",
+  "description": "This is the sample of using semantic-release for monorepo",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McReader/semantic-release-monorepo-example.git"
+  },
+  "author": "mcreader215@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McReader/semantic-release-monorepo-example/issues"
+  },
+  "homepage": "https://github.com/McReader/semantic-release-monorepo-example#readme",
+  "devDependencies": {
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "lerna": "3.20.2",
+    "semantic-release": "^17.0.4",
+    "semantic-release-monorepo": "^7.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
