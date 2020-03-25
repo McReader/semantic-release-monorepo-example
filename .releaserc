@@ -1,3 +1,4 @@
 {
-  "plugins": ["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator"]
+  "plugins": ["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator"],
+  "branches": ["master", "next", "beta", "alpha"]
 }
