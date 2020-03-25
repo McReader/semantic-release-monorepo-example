@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is the sample of using semantic-release for monorepo",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "publish": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "repository": {
     "type": "git",
